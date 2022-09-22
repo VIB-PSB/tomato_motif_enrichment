@@ -29,4 +29,4 @@ Requirements:
 
 ## **Contact**
 
-For questions or remarks about the code or data in this repository please contact Nicolás Manosalva Pérez (niman@psb.ugent.be) or Klaas Vandepoele (klpoe@psb.ugent.be)
+For questions or remarks about the code or data in this repository please contact Nicolás Manosalva Pérez (nicolas.manosalvaperez@psb.vib-ugent.be) or Klaas Vandepoele (klaas.vandepoele@psb.vib-ugent.be)
