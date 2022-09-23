@@ -7,7 +7,7 @@ The present GitHub repository contains the code and data necessary to reproduce 
 The folder structure of the repository consists of three folders with the necessary scripts and files to perform the two main protocols (the gene ID conversion protocol and the motif enrichment protocol) of this chapter and the functional network analysis. Additionally, there is a compressed file named “precomputed_outputs.tar.gz” (with the corresponding instructions to uncompress it) that contains the final result files derived from executing the protocols presented in this chapter. Finally, there is an empty output folder, where the results from reproducing this protocol will be stored.
 
 * **gene_id_conversion**: data and scripts to perform gene ID conversion protocol.
-  - data: the gff3 file of query genome, gff3 filtered for gene features of target genome, and test set of ITAG 2.5 gene IDs for conversion to ITAG 4.0 gene IDs.
+  - data: the gff3 file of query genome, gff3 filtered for gene features of target genome, and test set of ITAG 2.5 gene IDs for conversion to ITAG 4.0 gene IDs. Additionally, to make it more visible, in this folder we have added an output file of the protocol: the conversion table file between ITAG 2.5 and ITAG 4.0
   - scripts: script to parse liftoff output and obtain the gene ID mapping table (getGeneIDFile.py), and script to convert set of genes in ITAG 2.5 to ITAG 4.0 (convert_to_ITAG4.py).
 * **enrichment_pipeline**: data and scripts to perform motif enrichment.
   - data: motif mapping files, motif information file and set files.
